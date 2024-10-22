@@ -1,0 +1,16 @@
+@media only screen and (min-width:900px){
+    .chn{
+        font-size: 14px;
+        border: 2px solid;
+        border-radius: 0px;
+        height: 370px;
+        width: 30%;
+        color: rgb(107, 0, 55);
+        margin: 10px;
+        background-image: url(backimg.avif);
+        background-size: cover;
+        padding: 40px;
+
+     }
+
+}

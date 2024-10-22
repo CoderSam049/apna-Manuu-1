@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+header{
+    background-color: rgb(32, 32, 65);
+  
+}
+
+nav {
+    max-width: 1650px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-block: 15px;
+    align-items: center;
+    color: rgb(247, 202, 0);
+
+}
+
+header {
+    position: sticky;
+    top: 0px;
+}
+
+.first {
+    color: rgba(12, 255, 255, 0.921);
+    font-size: 20px;
+
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+nav ul li {
+    margin: 0px 30px;
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(247, 202, 0);
+}
+
+ a:hover {
+    color: red;
+    transition: .2s;
+   
+
+}
+
+
+.menu-toggle {
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+.firstimg {
+    border: 1px solid black;
+    text-align: center;
+    min-height:60vh;
+    width:60%;
+    justify-content: center;
+    margin: 70px auto;
+    background-image: url(studyboy.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+   
+}
+/* .firstimg img{
+        width: 100%; /* Make the image fill the width of the box */
+        /* height: auto; /* Maintain aspect ratio */
+        /* display: block; /* Make the image a block element */
+  
+
+
+
+.secondpart {
+    margin-left: 40px;
+    padding-top: 20px;
+
+
+}
+
+.secondpart p {
+    color: black;
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.webname {
+    color: rgb(0, 50, 70);
+}
+
+
+
+caption {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+    padding-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    table-layout: auto;
+}
+
+table th,
+td {
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+
+}
+
+th,
+td {
+    padding: 8px;
+}
+
+b {
+    color: brown;
+}
+
+.two {
+    margin-top: 28px;
+    color: black;
+    line-height: 22px;
+    margin-left: 35px;
+    max-width: 80%;
+
+}
+
+.two li {
+    color: black;
+    text-decoration: dotted;
+    line-height: 22px;
+    margin-top: 18px;
+}
+.iframe iframe{
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 25px;
+    border: 10px solid rgb(15, 171, 227);
+   
+    
+}
+
+
+
+footer h5 {
+
+    text-align: center;
+    color: rgb(220, 213, 213);
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: rgb(46, 46, 48);
+}
+
+
+.image:hover {
+    transform: scale(1.02);
+    transition: 0.4s ease-in-out;
+
+    cursor: pointer;
+
+  }
+
+  #feature{
+    max-width: 900px;
+    margin-inline: auto;
+
+    padding: 12px;
+  }
+
+@media screen and (max-width: 700px) {
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: rgb(32, 32, 65);
+
+    }
+ 
+
+    .nav-list.show {
+        display: block;
+        background-color: rgba(4, 4, 55, 0.689);
+    }
+
+    li {
+        margin: 10px 0;
+        padding: 5px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .firstimg {
+        border: 2px solid black;
+        text-align: center;
+        min-height: 40vh;
+        width: 80%;
+        justify-content: center;
+        margin: 70px auto;
+        /* background-image: url(study.jpg); */
+        background-size: cover;
+        background-position: center center;
+    }
+
+
+    .thirdpart h1 {
+        font-size: 25px;
+        color: rgb(10, 77, 77);
+    }
+
+   
+
+}
+
+
+.containerimg1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+column-gap: 2rem;
+    margin-top: 30px;
+
+}
+
+.containerimg2 {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    margin-top: 30px;
+
+}
+
+.text1 {
+
+    max-width: 45vh;
+
+
+}
+
+h2 {
+    width: 100%;
+    font-size: 28px;
+
+}
+
+.text {
+    max-width: 45vh;
+    font-size: 1.5rem;
+
+}
+
+.image img {
+    min-height: 20vh;
+    max-width: 250px;
+    width: 100%;
+
+
+}
+
+p {
+    font-size: 10px;
+
+}
+
+.image img {
+  
+    max-width: 310px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+
+
+}
+
+@media only screen and (max-width:700px) {
+    .containerimg1 {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .containerimg2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+   
+
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            margin-top: 25px;
+        }
+
+
+
+
+    
+}

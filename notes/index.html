@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(243, 236, 227);
+            font-family: Arial, sans-serif;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1{
+            background-color: rgb(110, 2, 45);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .allnotes{
+            justify-content: center;
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .sub1{
+            font-size: 14px;
+            border: 2px solid;
+            height: 150px;
+            /* width: calc(40% - 40px); */
+            width: 30%;
+            margin: 20px;
+            padding: 20px;
+            background-color: rgb(186, 247, 142);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .sub1 a {
+            color: rgb(107, 0, 55);
+            text-decoration: none;
+        }
+
+        .sub1:hover {
+            transform: translateY(-15px);
+            transition: transform 0.3s ease;
+        }
+
+        .sub1:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.1);
+            z-index: -1;
+        }
+
+        .sub1:hover:before {
+            background: rgba(110, 101, 101, 0.899);
+        }
+
+        .sub1 p {
+            font-size: 18px;
+        }
+        footer{
+            text-align: center;
+            padding: 10px;
+            background-color: rgb(131, 125, 116);
+        }
+
+        @media (max-width: 768px) {
+            .sub1 {
+                width: calc(100% - 40px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <marquee >Welcome To You Notes Webpage</marquee></h1>
+    <div class="allnotes">
+        <div class="sub1">
+            <p>1. <a href="D. S. T. C 2UNIT_compressed.pdf" target="_blank" >DBMS Notes</a></p>
+        </div>
+        <div class="sub1">
+            <p>2. <a href="D. S. T. C 2UNIT_compressed.pdf" >Data Structure Notes</a></p>
+        </div>
+        <div class="sub1">
+            <p>3. <a href="Class Notes.pdf" >HTML  Notes</a></p>
+        </div>
+        <div class="sub1">
+            <p>4. <a href="CSS Notes.pdf" >CSS Notes</a></p>
+        </div>
+        <div class="sub1">
+            <p>5. <a href="SQL (notes) (1).pdf" >SQL Notes</a></p>
+        </div>
+        <div class="sub1">
+            <p>6. <a href="Python in One Shot.pdf" >Python Notes</a></p>
+        </div>
+        <div class="sub1">
+            <p>6. <a href="c program lab.pdf" >it</a></p>
+        </div>
+        <!-- Add more <div class="sub1"> elements for additional notes -->
+    </div>
+    <footer>
+        <h5>&copy;2024 Samir khan Manuu Polytechnic darbhanga</h5>
+    </footer>
+</body>
+</html>
